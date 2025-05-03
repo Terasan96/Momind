@@ -1,11 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <title>朝の気づき記録アプリ</title>
+    <link rel="stylesheet" href="style.css"> </head>
 <body>
-    <h1>Hello, World!</h1>
+    <h1>今朝の気づきを記録</h1>
+
+    <div>
+        <label for="current-date">日付:</label>
+        <input type="date" id="current-date" name="current-date">
+    </div>
+
+    <div>
+        <label for="todays-insight">今日の気づき（メンタル・体調など）:</label>
+        <br> <textarea id="todays-insight" name="todays-insight" rows="10" cols="50"></textarea>
+    </div>
+
+    <div>
+        <button>保存する</button>
+    </div>
+</div>
+
+<div>
+    <button>保存する</button>
+</div>
+
+<script src="script.js"></script> </body>
+</html>
 </body>
 </html>
